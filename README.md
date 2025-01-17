@@ -32,6 +32,13 @@ Durante o desenvolvimento destes testes, utilizei os seguintes materiais como re
 - BitDogLab - WiFi LED Project (https://github.com/BitDogLab/BitDogLab-C/tree/main/wifi_led)
 - Raspberry Pi Pico Internal Temperature Sensor - Random Nerd Tutorials (https://randomnerdtutorials.com/raspberry-pi-pico-internal-temperature-micropython/)
 
+## Envio de Dados ao Firebase
+Na pasta firebase, você encontrará um script em Python que implementa um servidor. Este servidor recebe os dados enviados pelo Raspberry Pi Pico, processa-os e os envia ao Firebase.
+
+1. **Execute o servidor**:
+   ```bash
+   git clone https://github.com/heitornery/testes-residencia-sistemas-embarcados.git
+
 ## Contribuições
 
 Sinta-se à vontade para explorar, modificar e contribuir com este repositório. Caso queira sugerir melhorias ou adicionar novos testes, basta fazer um Fork e enviar um Pull Request.
